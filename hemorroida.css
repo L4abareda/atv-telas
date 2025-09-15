@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(178, 208, 255);
+    border: 1px solid red;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.seta{
+    width: 10vh;
+    height: 10vh;
+    margin-right: 10%;
+}
+
+.titulo{
+    align-self: center;
+}
+
+.secao{
+    width: 50%;
+    height: 90vh;
+}
+
+.img-telefone{
+    width: 30vh;
+    height: 50vh;
+    border-radius: 5vh;
+}
