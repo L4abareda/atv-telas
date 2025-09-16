@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    
+    /*border: 1px solid red;*/
+    font-family: 'Oswald';
+}
+body{
+    background-color: rgb(178, 208, 255);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.seta{
+    width: 5vh;
+    height: 5vh;
+    margin-right: 10%;
+    align-self: center;
+}
+
+.titulo{
+    align-self: center;
+}
+
+.secao{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.texto-img{
+    text-align: center;
+}
+.img-telefone{
+    width: 45vh;
+    height: 65vh;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.segunda-parte{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-segunda{
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+
+.icone1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.icone2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.icone3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    vertical-align: auto;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    background-color: white;
+    width: 50%;
+    height: 40vh;
+    border-radius: 15px;
+}
+
+.form-formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.titulo-form{
+    background-color: white;
+    margin-left: 4%;
+}
+
+.caixa-texto1{
+    width: 85%;
+    height: 4vh;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(178, 208, 255);
+    padding-left: 2vh;
+}
+
+.caixa-texto2{
+    width: 85%;
+    height: 4vh;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(178, 208, 255);
+    padding-left: 2vh;
+}
+
+.caixa-texto3{
+    width: 85%;
+    height: 4vh;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(178, 208, 255);
+    padding-left: 2vh;
+}
+
+.btn-form{
+    background-color: orange;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    height: 4vh;
+    color: white;
+    border: none;
+}
+
+
+
+.caixota{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin: 3vh;
+}
+
+.caixinha{
+    background-color: grey;
+}
+
+.caixota-texto{
+    font-size: x-small;
+    color: grey;
+    align-self: center;
+}
